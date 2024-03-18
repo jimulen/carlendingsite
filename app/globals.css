@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -218,9 +216,6 @@
 }
 .contacts{
  padding-left: 2%;
-}
-.paymet{
-
 }
 .socmed{
   padding-left: 35%;
