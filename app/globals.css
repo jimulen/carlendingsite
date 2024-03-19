@@ -226,6 +226,7 @@
 
 
   .modal-overlay {
+    float: left;
     position: fixed;
     margin: 0 auto;
     top: 20%;
