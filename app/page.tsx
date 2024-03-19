@@ -12,6 +12,7 @@ const Home = () => {
     <div>
       <Head>
         <title>DODOMA CAR LENDING SITE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Add any other meta tags or stylesheets here */}
       </Head>
 
