@@ -45,6 +45,7 @@ const CarGrid = () => {
           closeModal={closeModal}
         />
       )}
+      
     </div>
   );
 };

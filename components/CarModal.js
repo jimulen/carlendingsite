@@ -8,7 +8,7 @@ const CarModal = ({ car, closeModal }) => {
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <h2>{car.name}</h2>
         <p>{car.description}</p>
-        <button>Pay Now</button>
+        <button style={{ backgroundColor: '#113536', color: '#fff', }} onClick={closeModal}>Login For Payment</button>
         <button style={{ backgroundColor: '#113536', color: '#fff', }} onClick={closeModal}>Close</button>
       </div>
     </div>

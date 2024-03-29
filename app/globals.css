@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -13,7 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+input {
+  @apply w-[400px] border border-gray-200 py-2 px-6 bg-zinc-100/40;
+}
 .bod {
  background-color: #0a1310f5;
 }
@@ -36,11 +40,6 @@
   border-radius: 4px;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header a.logo {
-  font-size: 50px;
-  font-weight: bold;
-}
 
 /* Change the background color on mouse-over */
 .header a:hover {
@@ -217,6 +216,7 @@
 .contacts{
  padding-left: 2%;
 }
+
 .socmed{
   padding-left: 35%;
 }
@@ -226,14 +226,16 @@
 
 
   .modal-overlay {
+    float: left;
     position: fixed;
+    margin: 0 auto;
     top: 20%;
     left: 30%;
     width: 50%;
     height: 50%;
-    color: black;
+    color: rgb(243, 234, 234);
     border-radius: 10px;
-    background: rgba(149, 13, 212, 0.842);
+    background: rgba(5, 90, 51, 0.842);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,13 +243,12 @@
   }
   
   .modal-content {
-    background: #121213;
+    background: #063f22;
     padding: 1px;
     border-radius: 8px;
     text-align: center;
-    width: 15%; /* Set the width to 30% of the screen */
+    width: 90%; /* Set the width to 30% of the screen */
     z-index: 1100; /* Set a higher z-index to make sure it appears in front */
     box-shadow: 0 0 10px rgba(10, 10, 10, 0.2); /* Add a box shadow for a border effect */
   }
   
-    

@@ -1,10 +1,11 @@
 // pages/index.js
 import Head from 'next/head';
 import Carousel from '../components/Carousel';
-import CarGrid from '../components/CarGrid';
-import Footer from '../components/Footer';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
+
+
 
 
 const Home = () => {
@@ -12,19 +13,12 @@ const Home = () => {
     <div>
       <Head>
         <title>DODOMA CAR LENDING SITE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         {/* Add any other meta tags or stylesheets here */}
       </Head>
 
-      <header>
-      <div className="header">
-  <a href="#default" className="logo">DODOMA CAR LENDING SITE</a>
-  <div className="header-right">
-    <a className="active" href="#home">Home</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-</div>
-      </header>
+      
 
     <div className='bod'>
     <main>
@@ -36,8 +30,7 @@ const Home = () => {
        each designed to deliver a perfect blend of style and performance. Whether you're seeking luxury, 
        efficiency, or adventure, we have the ideal ride waiting for you. Let's make your driving aspirations a reality. start your exploration with DODOMA CAR LENDING SITE today!"</p></div>
         <Carousel />
-        <CarGrid />
-        <Footer />
+    
       </main>
 
     </div>
