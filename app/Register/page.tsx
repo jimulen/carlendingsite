@@ -82,7 +82,7 @@ const Register = () => {
                     <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Location" />
                     <button type="submit" className='bg-green-600 text-white font-bold cursor-pointer px-6 py-2'>Register</button>
         <div className='bg-red-500 text-white w-fit py-1 px-3 text-sm rounded-md mt-2 '>{error}</div>
-        <Link className='text-sm mt-3 text-right' href={'/Login'}>Already have an account? <span className='underline'>Login</span></Link>
+        <Link className='text-sm mt-3 text-right' href={'/Login'}> have an account? <span className='underline'>Login</span></Link>
                 </form>
             </div>
         </div>
