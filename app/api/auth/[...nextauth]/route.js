@@ -1,5 +1,6 @@
 import NextAuth from "next-auth/next";
 import CredentialsProvider from "next-auth/providers/credentials";
+import { connectMongoDB } from "@/lib/mongodb";
 import User from "@/models/user";
 import bcrypt from 'bcryptjs';
 const authOptions = {
@@ -38,7 +39,7 @@ session: {
 },
 secret: process.env.NEXTAUTH_SECRET,
 pages: {
-    SignIn: "/Login",
+    SignIn: "/",
 },
 
 };

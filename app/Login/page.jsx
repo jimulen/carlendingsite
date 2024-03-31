@@ -13,7 +13,7 @@ const Login = () => {
 
   const router = useRouter();
 
-  const handlesubmit = async(e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
@@ -37,7 +37,7 @@ const Login = () => {
   return (
    <div className="grid place-items-center h-screen">
     <div className="shadow-lg p-5 font-bold rounded-lg border-t-4 border-green-400 ">Login
-    <form onSubmit={handlesubmit} className='flex flex-col gap-3'>
+    <form onSubmit={handleSubmit} className='flex flex-col gap-3'>
         <input
          onChange={(e) => setEmail(e.target.value)}
         type="text" placeholder="Email" />
