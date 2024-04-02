@@ -39,7 +39,7 @@ session: {
 },
 secret: process.env.NEXTAUTH_SECRET,
 pages: {
-    SignIn: "/",
+    SignIn: "/Main",
 },
 
 };
