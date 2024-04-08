@@ -8,11 +8,13 @@ const CarModal = ({ car, closeModal }) => {
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <h2>{car.name}</h2>
         <p>{car.description}</p>
-        <button style={{ backgroundColor: '#113536', color: '#fff', }} onClick={closeModal}>Login For Payment</button>
-        <button style={{ backgroundColor: '#113536', color: '#fff', }} onClick={closeModal}>Close</button>
+        <p className='py-1 px-12 my-3 mx-6'><img src={car.image} alt={car.name} /></p>
+       <button className='my-3 mx-6 py-3 px-3 rounded-md' href={'/Payment'} style={{ backgroundColor: '#1135', color: '#fff', }} >Payment</button>
+        <button className='my-3 mx-6 py-3 px-3 rounded-md' style={{ backgroundColor: '#1135', color: '#fff', }} onClick={closeModal}>Close</button>
+       </div>
+
       </div>
-    </div>
   );
 };
 
-export default CarModal;
+export default CarModal; 

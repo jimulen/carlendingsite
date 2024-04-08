@@ -8,6 +8,7 @@ const Header = () => {
   <button><Link href={"/"}>Home</Link></button>
   <button><Link href={"/Login"}>Login</Link></button>
     <button><Link href={"/Register"}>Register</Link></button>
+  
   </div>
 </div>
   )
