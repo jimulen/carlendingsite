@@ -37,7 +37,7 @@ const authOptions = {
 session: {
     strategy: "jwt",
 },
-secret: process.env.VERCEL_ENV === "preview",
+secret: process.env.NEXTAUTH_SECRET,
 pages: {
     SignIn: "/Main",
 },
