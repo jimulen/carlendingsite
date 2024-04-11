@@ -1,9 +1,9 @@
 // paymentModel.js
 
-const mongoose = require('mongoose');
+import { Schema, model } from 'mongoose';
 
 // Define the schema for the payment model
-const paymentSchema = new mongoose.Schema({
+const paymentSchema = new Schema({
   amount: {
     type: Number,
     required: true
@@ -28,7 +28,7 @@ const paymentSchema = new mongoose.Schema({
 });
 
 // Create the payment model based on the schema
-const Payment = mongoose.model('Payment', paymentSchema);
+const Payment = model('Payment', paymentSchema);
 
 // Export the payment model
-module.exports = Payment;
+export default Payment;

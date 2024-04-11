@@ -1,4 +1,4 @@
-import NextAuth, { getServerSession } from "next-auth/next";
+import NextAuth from "next-auth/react";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { connectMongoDB } from "@/lib/mongodb";
 import User from "@/models/user";
