@@ -127,7 +127,7 @@ input {
   top: 50%;
   transform: translateY(-30%);
   padding-top: 10%;
-  padding-bottom: 15%;
+  padding-bottom: 25%;
 }
 #carousel div {
   position: absolute;
@@ -203,7 +203,6 @@ input {
 .footer{
   color: aliceblue;
   background-color: #63676e;
-  
 }
 
 
@@ -214,16 +213,23 @@ input {
   
 }
 .contacts{
- padding-left: 2%;
+ padding-left: 50px;
+ display: inline-block;
+}
+
+.pay{
+  display: flex;
+  padding-top: 2px;
+  justify-content: space-between; 
 }
 
 .socmed{
-  padding-left: 35%;
+  
+  display: flex;
+  padding-top: 2px;
+  justify-content: space-between; 
 }
-
 /* components/CarModal.css */
-
-
 
   .modal-overlay {
     float: left;
