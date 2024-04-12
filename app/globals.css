@@ -125,7 +125,7 @@ input {
   position: relative;
   height: 400px;
   top: 50%;
-  transform: translateY(-30%);
+  transform: translateY(-10%);
   padding-top: 10%;
   padding-bottom: 25%;
 }

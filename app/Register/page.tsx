@@ -1,6 +1,5 @@
 import { getSession } from 'next-auth/react';
 import { redirect } from 'next/navigation';
-import { authOptions } from '../api/auth/[...nextauth]/route';
 import RegisterForm from '@/components/RegisterForm';
 
 export default async function Register() {
