@@ -58,17 +58,17 @@ const PaymentForm = ({ onClose }) => {
             className="border border-gray-300 rounded-md px-3 py-2 w-full"
           />
         </div>
-        <div className="flex justify-md">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
           <button
             type="submit"
-            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 mr-5 ml-12"
+            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 mt-2 md:mt-0 md:mr-2"
           >
             Submit Payment
           </button>
           <button
             type="button"
             onClick={handleClose} // Call handleClose function when this button is clicked
-            className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 ml-8"
+            className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 mt-2 md:mt-0"
           >
             Close
           </button>
